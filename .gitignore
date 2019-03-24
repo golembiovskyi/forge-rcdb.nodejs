@@ -16,3 +16,6 @@ config/development.config.js
 nginx
 TMP
 
+.vs/forge-rcdb.nodejs/v15/.suo
+.vs/ProjectSettings.json
+.vs/slnx.sqlite
