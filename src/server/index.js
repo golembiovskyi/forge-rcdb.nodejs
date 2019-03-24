@@ -309,7 +309,7 @@ const runServer = (app) => {
     })
 
     const server = app.listen(
-      process.env.PORT || 3000, () => {
+      process.env.PORT || 5000, () => {
 
         const socketSvc = new SocketSvc({
           session,
@@ -323,7 +323,6 @@ const runServer = (app) => {
         console.log('Server listening on PORT: ' + port)
         console.log('ENV: ' + process.env.NODE_ENV)
       })
-
   } catch (ex) {
 
     console.log('Failed to run server... ')
