@@ -3,7 +3,7 @@
 // PRODUCTION configuration
 //
 /////////////////////////////////////////////////////////////////////
-const HOST_URL = 'https://forge-rcdb.autodesk.io'
+const HOST_URL = 'https://model-checker-app.herokuapp.com'
 const PORT = 443
 
 const config = {
